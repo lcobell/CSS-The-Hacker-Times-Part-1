@@ -1,1 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/* The Paper */
+h5  {
+    color: red;
+    font-family: abril fatface;
+}
+
+body    {
+    font-family: Source Sans Pro;
+    background-color: #d3dedc;
+}
+header  {
+    font-family: Abril Fatface;
+    text-align: center;
+}
+.date   {
+    text-align: left;
+    color: #777;
+}
+/*first pic */
+#banner-pic     {
+    width: 100%;
+}
+.newspaper-container{
+    width: 700px;
+    margin: 3em auto;
+    padding: 1em;
+   
+    border-radius: 10px;
+    background: white;
+    box-shadow: 1px 1px 5px #ddd;
+    border-color: gray;
+  }
+  
+
+/* article titles */
+
+    font-family: Roboto Slab
+}
+/* front page article text */
+main > p {
+    color: #777;
+}
+/*nav bar*/
+
+li  {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0em .3em .3em 0em;
+    color: #777;
+    font-size: 10pt;
+}
+a:link  {
+    text-decoration: none;
+
+}
+a:visited   {
+    color: #777;
+}
+section {
+    display: inline-block;
+    width: 40%;
+    padding: 4%;
+    text-align: left;
+}
+section > p {
+    text-align: justify;
+}
+main > p   {
+    text-align: justify;
+}
