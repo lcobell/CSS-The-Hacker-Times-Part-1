@@ -9,6 +9,7 @@ h5  {
 body    {
     font-family: Source Sans Pro;
     background-color: #d3dedc;
+    
 }
 header  {
     font-family: Abril Fatface;
@@ -44,12 +45,14 @@ main > p {
 }
 /*nav bar*/
 
+
 li  {
     list-style-type: none;
     display: inline-block;
     padding: 0em .3em .3em 0em;
     color: #777;
     font-size: 10pt;
+    
 }
 a:link  {
     text-decoration: none;
@@ -58,6 +61,15 @@ a:link  {
 a:visited   {
     color: #777;
 }
+span
+ {
+    display: inline-block;
+    width: 33%;
+
+   
+
+}
+
 section {
     display: inline-block;
     width: 40%;
@@ -69,4 +81,21 @@ section > p {
 }
 main > p   {
     text-align: justify;
+}
+
+nav {
+    position: sticky;
+    top: 0%;
+    z-index: 0;
+    background-color: white;
+}
+ul  {
+    text-align: center;
+}
+.grid-container {
+    display: inline-grid; 
+}
+
+img {
+    filter:grayscale(100%);
 }
